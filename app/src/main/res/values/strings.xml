@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Retrofit-1.9-Example</string>
+
+
+
+    <string name="get_method">GET Method</string>
+    <string name="post_method">POST Method</string>
+    <string name="upload_file">Upload File</string>
+    <string name="with_header">With Header</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l_root"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.shijil.retrofit_19_example.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_post"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/post_method" />
+
+        <Button
+            android:id="@+id/btn_get"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/get_method" />
+
+        <Button
+            android:id="@+id/btn_with_header"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/with_header" />
+
+        <Button
+            android:id="@+id/btn_file_upload"
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/upload_file" />
+    </LinearLayout>
+</LinearLayout>
